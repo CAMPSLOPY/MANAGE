@@ -1,0 +1,124 @@
+.footer-section {
+    min-height: 50vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    position: relative;
+    flex-wrap: wrap;
+
+    .footer-main {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        padding: 5rem 0rem;
+
+        .footer-logo-icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: relative;
+            overflow: hidden;
+
+            .footer-logo {
+                flex: 0;
+                width: 70%;
+                position: relative;
+                bottom: 7rem;
+                // filter: brightness(0) invert(1);
+                fill: aliceblue;
+            }
+
+            .footer-icons {
+                flex: 2;
+                position: absolute;
+                bottom: 0;
+
+
+                .footer-icons-img {
+                    padding-right: 0.4rem;
+                    margin-right: 0.2rem;
+
+                }
+            }
+        }
+
+        .footer-link {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 0rem 1rem;
+            position: relative;
+
+            ul {
+                display: flex;
+                position: relative;
+                
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                li {
+                    margin: 1rem 0rem;
+
+                    a {
+                        padding-right: 0.4rem;
+                        color: white;
+                    }
+                }
+
+            }
+
+
+        }
+
+        .footer-services{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: relative;
+
+            a{
+                font-size: 1.5rem;
+                color: white;
+            
+            }
+        }
+
+        .footer-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            
+            .footer-input{
+                display: flex;
+                justify-content: space-around;
+                input{
+                    border-radius: 25px;
+                    padding: 1rem;
+                    outline: none;
+                    border: none;
+                    font-size: 1.5rem;
+                }
+                button{
+                    border-radius: 25px;
+                    margin-left: 1rem;
+                }
+            }
+
+            .footer-copyright{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+
+        }
+
+    }
+}
